@@ -47,7 +47,7 @@ pip install django
 
 4. Configure the Application
 
-# Update the Django settings file (settings.py) in the lms directory:
+Update the Django settings file (settings.py) in the lms directory:
 
 Database Configuration:
 By default, SQLite is used. If using another database, update the DATABASES section:
@@ -79,13 +79,13 @@ python manage.py migrate
 
 6. Run the Development Server
 
-Start the Django development server:
+# Start the Django development server:
 
 python manage.py runserver
 
 The application will be accessible at http://127.0.0.1:8000/.
 
-Application Endpoints
+# Application Endpoints
 
 The LMS application contains the following endpoints, managed by the home app:
 
