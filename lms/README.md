@@ -1,8 +1,8 @@
-LMS Django Application
+# LMS Django Application
 
 This README file provides instructions for setting up and running the LMS Django application. The application contains a single app called "home" and provides endpoints for managing applications.
 
-Prerequisites
+# Prerequisites
 
 Ensure the following are installed on your system:
 
@@ -16,7 +16,7 @@ A virtual environment tool (e.g., venv or virtualenv)
 
 A database (SQLite is used by default, but you can configure others like PostgreSQL or MySQL)
 
-Setup Instructions
+# Setup Instructions
 
 Follow these steps to set up and run the application:
 
@@ -47,7 +47,7 @@ pip install django
 
 4. Configure the Application
 
-Update the Django settings file (settings.py) in the lms directory:
+# Update the Django settings file (settings.py) in the lms directory:
 
 Database Configuration:
 By default, SQLite is used. If using another database, update the DATABASES section:
